@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json({ limit: "50mb" }));
 
-const API_KEY = "AIzaSyDcmKs81s0YB5STyCRlugMT0IA5dJGR_cU";
+const API_KEY = "<YOUR API KEY>";
 
 // ✅ Correct model names (2025)
   const TEXT_MODEL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
